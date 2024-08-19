@@ -47,8 +47,12 @@ Version 1.4.0 - 4/1/2024
 => Added additional checks & use-case fixes to grading estimate tools
 => Fixed persistent bugs with mass grading estimate, terrain loss estimate & pile northing adjust tools
 => Fixed bug with sample pile tool producing un-needed piles; added ability to produce pile location attribute
-"""
 
+
+Version 1.5.0 - 08/19/2024
+=> Description of changes for version 1.5.0
+
+"""
 import arcpy
 
 #from ATINorthingAdjPOACenterFixed import *
@@ -95,9 +99,9 @@ from retrievePublicDEM import *
 
 class Toolbox(object):
     def __init__(self):
-        """SolarSpaceAddIn_Build_v1.4.0.pyt"""
-        self.label = "SolarSpace"
+        """SolarSpaceAddIn_Build_v1.5.0.pyt"""
         self.alias = "SolarSpace"
+        self.label = "SolarSpace v1.5.0"
 
         # List of tool classes associated with this toolbox
         self.tools =    [#ATINorthingAdjPOACenterFixed,
